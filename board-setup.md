@@ -69,9 +69,9 @@ For the **vias** we use the following values while keep using the *metric* syste
 
 | Size   |                 | Drill  |                 | Current (^10 °C / A) |
 | ------ | --------------- | ------ | --------------- | -------------------- |
-| 0,8 mm | (31,49606 mils) | 0,4 mm | (15,74803 mils) | 1,6 A (35 µm)        |
-| 1,4 mm | (55,11811 mils) | 0,7 mm | (27,55906 mils) | 2,4 A (35 µm)        |
-| 2,0 mm | (78,74016 mils) | 1,0 mm | (39,37008 mils) | 3,1 A (35 µm)        |
+| 0,8 mm | (31,49606 mils) | 0,4 mm | (15,74803 mils) | 1,6 A                |
+| 1,4 mm | (55,11811 mils) | 0,7 mm | (27,55906 mils) | 2,4 A                |
+| 2,0 mm | (78,74016 mils) | 1,0 mm | (39,37008 mils) | 3,1 A                |
 
 <br/>
 
