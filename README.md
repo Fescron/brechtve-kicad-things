@@ -116,8 +116,10 @@ The default values are fine:
 
 ### 4.1 - PCBWay (Quick-turn PCB as of 21/11/2019)
 
-- Check the `Protel` box
-- Drill files: Check the `suppress leading zeros` and `minimal header` boxes
+- Check the `Use Protel filename extensions` box
+- Drill files:
+  - Check the `suppress leading zeros` and `minimal header` boxes
+  - Uncheck the `PTN and NPTH in single file` box 
 
 <br/>
 
