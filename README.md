@@ -42,11 +42,15 @@ This repository is a collection of all of my self-made footprints and symbols fo
 - PCB thickness: 1,6 mm
 - Copper weight: 35 µm (1 oz)
 
-| Resistor Size | Power dissipation | Usage          |
-| ------------- | ----------------- | -------------- |
-| 0603          | 1/10 W = 100 mW   |                |
-| 0805          | 1/8 W = 125 mW    | Hand soldering |
-| 1206          | 1/4 W = 250 mW    | Power sensing  |
+| Resistor package | Power dissipation | Usage          |     | Diode package | Other name | Size   |
+| ---------------- | ----------------- | -------------- | --- | ------------- | ---------- | ------ |
+| 0603             | 1/10 W = 100 mW   |                |     | DO-214AC      | SMA        | Small  |
+| 0805             | 1/8 W = 125 mW    | Hand soldering |     | DO-214AA      | SMB        | Middle |
+| 1206             | 1/4 W = 250 mW    | Power sensing  |     | DO-214AB      | SMC        | Large  |
+
+| Standard Board info |
+| ------------------- |
+| <pre> `< project title >         v1.0` <br/> `Licensed under CERN OHL v.1.2.` <br/> `github.brechtve.be`     `01/2020` </pre> |
 
 <br/>
 
