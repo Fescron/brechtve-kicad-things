@@ -26,7 +26,7 @@
 
 ### 2.1.1 - Text & Graphics
 
-The default settings for text and graphics using the *metric* system are fine:
+The **default settings** for text and graphics using the *metric* system are fine:
 
 |                   | Line Thickness | (mils)     | Text Width | (mils)     | Text Height | Text Thickness | (mils)     |
 | ----------------- | -------------- | ---------- | ---------- | ---------- | ----------- | -------------- | ---------- |
@@ -42,52 +42,51 @@ The default settings for text and graphics using the *metric* system are fine:
 
 ### 2.2.1 - Net Classes
 
-Here we change the values regarding tracks (see **bold** values in the following table) to values using the *imperial* system:
+Here we `change` the values regarding **TRACKS** to values using the *imperial* system.
 
-| Clearance   | Track Width | Via Size        | Via Drill       | uVia Size       | uVia Drill      | dPair Width | dPair Gap   |
-| ----------- | ----------- | --------------- | --------------- | --------------- | --------------- | ----------- | ----------- |
-| **10 mils** | **10 mils** | 0,8 mm          | 0,4 mm          | 0,3 mm          | 0,1 mm          | **10 mils** | **10 mils** |
-|             |             |                 |                 |                 |                 |             |             |
-| (0,254 mm)  | (0,254 mm)  | (31,49606 mils) | (15,74803 mils) | (11,81102 mils) | (3,937008 mils) | (0,254 mm)  | (0,254 mm)  |
+| Clearance  | Track Width | Via Size        | Via Drill       | uVia Size       | uVia Drill      | dPair Width | dPair Gap  |
+| ---------- | ----------- | --------------- | --------------- | --------------- | --------------- | ----------- | ---------- |
+| `10 mils`  | `10 mils`   | 0,8 mm          | 0,4 mm          | 0,3 mm          | 0,1 mm          | `10 mils`   | `10 mils`  |
+| (0,254 mm) | (0,254 mm)  | (31,49606 mils) | (15,74803 mils) | (11,81102 mils) | (3,937008 mils) | (0,254 mm)  | (0,254 mm) |
 
 <br/>
 
 ### 2.2.2 - Tracks & Vias
 
-Here we add all new values for the **tracks** using the *imperial* system:
+Here we add all new values for the **TRACKS** using the *imperial* system.
 
-| Width   |            | Current (^10 °C / A) |
-| ------- | ---------- | -------------------- |
-| 10 mils | (0,254 mm) | 0,9 A (35 µm)        |
-| 15 mils | (0,381 mm) |                      |
-| 20 mils | (0,508 mm) | 1,4 A (35 µm)        |
-| 25 mils | (0,635 mm) |                      |
-| 30 mils | (0,762 mm) | 1,9 A (35 µm)        |
-| 40 mils | (1,016 mm) | 2,4 A (35 µm)        |
+| Width     |            | Current (^10 °C / A) |
+| --------- | ---------- | -------------------- |
+| `10 mils` | (0,254 mm) | 0,9 A (35 µm)        |
+| `15 mils` | (0,381 mm) |                      |
+| `20 mils` | (0,508 mm) | 1,4 A (35 µm)        |
+| `25 mils` | (0,635 mm) |                      |
+| `30 mils` | (0,762 mm) | 1,9 A (35 µm)        |
+| `40 mils` | (1,016 mm) | 2,4 A (35 µm)        |
 
 <br/>
 
-For the **vias** we use the following values while keep using the *metric* system:
+For the **VIAS** we use the following values while keep using the *metric* system.
 
-| Size   |                 | Drill  |                 | Current (^10 °C / A) |
-| ------ | --------------- | ------ | --------------- | -------------------- |
-| 0,8 mm | (31,49606 mils) | 0,4 mm | (15,74803 mils) | 1,6 A                |
-| 1,4 mm | (55,11811 mils) | 0,7 mm | (27,55906 mils) | 2,4 A                |
-| 2,0 mm | (78,74016 mils) | 1,0 mm | (39,37008 mils) | 3,1 A                |
+| Size     |                 | Drill    |                 | Current (^10 °C / A) |
+| -------- | --------------- | -------- | --------------- | -------------------- |
+| `0,8 mm` | (31,49606 mils) | `0,4 mm` | (15,74803 mils) | 1,6 A                |
+| `1,4 mm` | (55,11811 mils) | `0,7 mm` | (27,55906 mils) | 2,4 A                |
+| `2,0 mm` | (78,74016 mils) | `1,0 mm` | (39,37008 mils) | 3,1 A                |
 
 <br/>
 
 ### 2.2.3 - Solder Mask/Paste
 
-Here we also switch to slightly other values using the *imperial* system:
+Here we also switch to slightly other values using the *imperial* system.
 
-|                                  | Size        |             |
-| -------------------------------- | ----------- | ----------- |
-| **Solder mask clearance**        | **2 mils**  | (0,0508 mm) |
-| **Solder mask minimum width**    | **10 mils** | (0,254 mm)  |
-|                                  |             |             |
-| **Solder paste clearance**       | -0 mils     |             |
-| **Solder paste ratio clearance** | -0,00 %     |             |
+|                                  | Size      |             |
+| -------------------------------- | --------- | ----------- |
+| **Solder mask clearance**        | `2 mils`  | (0,0508 mm) |
+| **Solder mask minimum width**    | `10 mils` | (0,254 mm)  |
+|                                  |           |             |
+| **Solder paste clearance**       | -0 mils   |             |
+| **Solder paste ratio clearance** | -0,00 %   |             |
 
 <br/>
 
@@ -97,21 +96,21 @@ Here we also switch to slightly other values using the *imperial* system:
 
 DRC settings:
 
-- Minimum track width: 6 mils
-- Minimum track gap: 6 mils
-- Minimum via drill: 0,3 mm
+- Minimum track width: `6 mils`
+- Minimum track gap: `6 mils`
+- Minimum via drill: `0,3 mm`
 
 <br/>
 
 Text (silkscreen) settings:
 
 - Positive:
-  - Minimum character line width: 0,15 mm
-  - Minimum character height: 0,8 mm
-  - => A ratio of 1:5 is recommended.
+  - Minimum character line width: `0,15 mm`
+  - Minimum character height: `0,8 mm`
+  - => A ratio of `1:5` is recommended.
 - Inverted:
-  - Minimum character line width: 0,25 mm
-  - Minimum character height: 1,25 mm
+  - Minimum character line width: `0,25 mm`
+  - Minimum character height: `1,25 mm`
 
 <br/>
 
