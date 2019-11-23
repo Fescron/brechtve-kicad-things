@@ -61,6 +61,7 @@ Here we add all new values for the **tracks** using the *imperial* system:
 | 10 mils | (0,254 mm) | 0,9 A (35 µm)        |
 | 15 mils | (0,381 mm) |                      |
 | 20 mils | (0,508 mm) | 1,4 A (35 µm)        |
+| 25 mils | (0,635 mm) |                      |
 | 30 mils | (0,762 mm) | 1,9 A (35 µm)        |
 | 40 mils | (1,016 mm) | 2,4 A (35 µm)        |
 
