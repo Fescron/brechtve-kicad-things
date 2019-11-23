@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TEC2-0913
+D 134 mA Regulated 2W DC/DC converter with 1.6kV isolation, 4.5V-13.2V input, 15V fixed Output Voltage, SIP-8, Remote On/Off
+K  Traco isolated isolation dc-dc converter transformer
+$ENDCMP
+#
+#End Doc Library
