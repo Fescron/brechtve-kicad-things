@@ -5,6 +5,8 @@
 
 <br/>
 
+**TODO: THIS NEEDS A LOT OF CHANGES AND IS VERY OUTDATED**
+
 ## Table of Contents
 
 - [5 - Footprints and Libraries](#5---footprints-and-libraries)
@@ -31,10 +33,6 @@ The footprints on the *Top Solder Mask* layer are intended to put over, for exam
 | `Symbol_CC-Attribution_SolderMaskTop_5mm.kicad_mod`     | Circular **Attribution** logo      | Top Solder Mask                                                 |
 | `Symbol_CC-ShareAlike_SilkScreenTop_5mm.kicad_mod`      | Circular **Share Alike** logo      | Top Silk Screen                                                 |
 | `Symbol_CC-ShareAlike_SolderMaskTop_5mm.kicad_mod`      | Circular **Share Alike** logo      | Top Solder Mask                                                 |
-
-<br/>
-
-**TODO**
 
 <br/>
 
