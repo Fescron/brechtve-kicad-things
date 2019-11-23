@@ -42,6 +42,12 @@ This repository is a collection of all of my self-made footprints and symbols fo
 - PCB thickness: 1,6 mm
 - Copper weight: 35 µm (1 oz)
 
+| Resistor Size | Power dissipation | Usage          |
+| ------------- | ----------------- | -------------- |
+| 0603          | 1/10 W = 100 mW   |                |
+| 0805          | 1/8 W = 125 mW    | Hand soldering |
+| 1206          | 1/4 W = 250 mW    | Power sensing  |
+
 <br/>
 
 ## 2 - Board Setup
@@ -58,29 +64,29 @@ Use **rounded corners** with a diameter of **75 mils (0,0750 inch)**.
 
 ### 3.1 - Much used things
 
-| Symbol                                | Package                                                             | Dimensions                                             |
-| ------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------ |
-| `SparkFun-PowerSymbols: XXXX`         | VDD, GND, VDDA                                                      |                                                        |
-| `power: XXX`                          | PWR_FLAG, GNDA, GNDPWR, +15V                                        |                                                        |
-|                                       |                                                                     |                                                        |
-| `Device: R/C/L_Small`                 | `XXXX_SMD: X_0805_XXXX_HandSolder`                                  | Pads: 1,15 mm x 1,40 mm                                |
-|                                       |                                                                     |                                                        |
-| `Device: Jumper_XX_Small`             | `Connector_PinHeader_2.54mm: PinHeader_1x02_P2.54mm_Vertical`       | Diameter hole: 1 mm - Pads: 1,7 mm x 1,7 mm            |
-| `Jumper: SolderJumper_3_Bridged12`    | `Jumper: SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels` |                                                        |
-|                                       |                                                                     |                                                        |
-| `Connector: TestPoint`                | `TestPoint: TestPoint_THTPad_D2.0mm_Drill1.0mm`                     | Drill: 1 mm - Pad: 2 mm                                |
-| `Connector_Generic: Conn_XXxXX`       | `Connector_PinHeader_2.54mm: PinHeader_XXXX`                        | Diameter hole: 1 mm - Pads: 1,7 mm x 1,7 mm            |
-|                                       | `PhoenixContact: PTSA 1,5 XXXX`                                     | 2 Contacts - Spacing pads: 3,5 mm - Diam. wire: 1,5 mm |
-|                                       |                                                                     |                                                        |
-| `Mechanical: MountingHole`            | `MountingHole: MountingHole_3.2mm_M3`                               | Diameter hole: 3,2 mm                                  |
-| `Switch: SW_Push`                     | `Button_Switch_SMD: SW_SPST_FSMSM`                                  | Pads: 2,18 mm x 1,60 mm - Distance between pads: 7 mm  |
-|                                       |                                                                     |                                                        |
-| **TODO: Make own symbol**             | `Connector: Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical`        | 2x5 TagConnect with legs                               |
-| **TODO: Make own symbol**             | **TODO: ARM 1.27mm standard Cortex Debug**                          |                                                        |
-| **TODO: Make own symbol**             | **TODO: UART TX RX GND VCC**                                        |                                                        |
-|                                       |                                                                     |                                                        |
-| `CreativeCommons: Symbol_CC-XXXX_5mm` | `CreativeCommons: Symbol-CC-BY-SA-v4-SilkMask-5mm`                  | Height: 5 mm                                           |
-|                                       | `KiCadLogo: KiCad-Logo2_5mm_SilkMask`                               | Height:  5mm                                           |
+| Symbol                                                  | Package                                                                             | Dimensions                                             |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| `SparkFun-PowerSymbols: XXXX`                           | VDD, GND, VDDA                                                                      |                                                        |
+| `power: XXXX`                                           | PWR_FLAG, GNDA, GNDPWR, +15V                                                        |                                                        |
+|                                                         |                                                                                     |                                                        |
+| `Device: R/C/L_Small`                                   | `XXXX_SMD: X_0805_XXXX_HandSolder`                                                  | Pads: 1,15 mm x 1,40 mm                                |
+|                                                         |                                                                                     |                                                        |
+| `Device: Jumper_XX_Small`                               | `Connector_PinHeader_2.54mm: PinHeader_1x02_P2.54mm_Vertical`                       | Diameter hole: 1 mm - Pads: 1,7 mm x 1,7 mm            |
+| `Jumper: SolderJumper_3_Bridged12`                      | `Jumper: SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels`                 |                                                        |
+|                                                         |                                                                                     |                                                        |
+| `Connector: TestPoint`                                  | `TestPoint: TestPoint_THTPad_D2.0mm_Drill1.0mm`                                     | Drill: 1 mm - Pad: 2 mm                                |
+| `Connector_Generic: Conn_XXxXX`                         | `Connector_PinHeader_2.54mm: PinHeader_XXXX`                                        | Diameter hole: 1 mm - Pads: 1,7 mm x 1,7 mm            |
+|                                                         | `Connector_Phoenix_PTSA_extra: PhoenixContact_PTSA_1,5_2-G-3,5_1x02_P3.50mm_Angled` | 2 Contacts - Spacing pads: 3,5 mm - Diam. wire: 1,5 mm |
+|                                                         |                                                                                     |                                                        |
+| `Mechanical: MountingHole`                              | `MountingHole: MountingHole_3.2mm_M3`                                               | Diameter hole: 3,2 mm                                  |
+| `Switch: SW_Push`                                       | `Button_Switch_SMD: SW_SPST_FSMSM`                                                  | Pads: 2,18 mm x 1,60 mm - Distance between pads: 7 mm  |
+|                                                         |                                                                                     |                                                        |
+| **TODO: Make own symbol**                               | `Connector: Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical`                        | 2x5 TagConnect with legs                               |
+| **TODO: Make own symbol**                               | **TODO: ARM 1.27mm standard Cortex Debug**                                          |                                                        |
+| **TODO: Make own symbol**                               | **TODO: UART TX RX GND VCC**                                                        |                                                        |
+|                                                         |                                                                                     |                                                        |
+| `BrechtVE_Aesthetics: Symbol_OSHW-EEVBLOG_SPFMDBC_10mm` | `BrechtVE_Aesthetics: OSHW-EEVBLOG2_SPFMDBC_SolderMaskTop_5mm`                      | Height: 5 mm                                           |
+|                                                         | `BrechtVE_Aesthetics: KiCad-Logo2_SilkScreenMaskTop_5mm`                            | Height:  5mm                                           |
 
 | Connector Package | Pitch   | Usage                            |
 | ----------------- | ------- | -------------------------------- |
