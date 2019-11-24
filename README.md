@@ -8,7 +8,7 @@
 [GitHub release](https://img.shields.io/github/release/Fescron/KiCad.svg)
 -->
 
-This repository is a collection of all my commonly used settings/symbols/packages and selfmade footprints/symbols among with a page layout containing [CERN Open Hardware Licence](https://ohwr.org/cernohl) information for use in the schematic editor and PCB layout program [KiCad](http://www.kicad-pcb.org/).
+This repository is a collection of all my commonly used settings/symbols/packages and selfmade footprints/symbols among with a page layout containing [CERN Open Hardware Licence](https://ohwr.org/cernohl) information. These can be used in the schematic editor and PCB layout program [KiCad](http://www.kicad-pcb.org/).
 
 <br/>
 
@@ -21,7 +21,6 @@ This repository is a collection of all my commonly used settings/symbols/package
   - [3 - PCB design](#3---pcb-design)
   - [4 - Gerber generation](#4---gerber-generation)
     - [4.1 - PCBWay (Quick-turn PCB as of 21/11/2019)](#41---pcbway-quick-turn-pcb-as-of-21112019)
-  - [5 - Footprints and Libraries](#5---footprints-and-libraries)
 
 <br/>
 
@@ -47,13 +46,13 @@ This repository is a collection of all my commonly used settings/symbols/package
 
 | Standard board information |
 | ------------------- |
-| <pre> `< project title >         v1.0` <br/> `Licensed under CERN OHL v.1.2.` <br/> `github.brechtve.be`     `01/2020` </pre> |
+| <pre>`< project title >         v1.0`<br/>`Licensed under CERN OHL v.1.2.`<br/>`github.brechtve.be`     `01/2020`</pre> |
 
 | Resistor package | Power dissipation | Usage                      |     | Diode package | Other name | Size   |
 | ---------------- | ----------------- | -------------------------- | --- | ------------- | ---------- | ------ |
 | 0603             | 1/10 W = 100 mW   |                            |     | DO-214AC      | SMA        | Small  |
 | 0805             | 1/8 W = 125 mW    | Hand soldering             |     | DO-214AA      | SMB        | Middle |
-| 1206             | 1/4 W = 250 mW    | Power sensing (i.e. 0,1 Ω) |     | DO-214AB      | SMC        | Large  |
+| 1206             | 1/4 W = 250 mW    | Power sensing (i.e. 0,1Ω) |     | DO-214AB      | SMC        | Large  |
 
 <br/>
 
@@ -115,9 +114,3 @@ See [THIS](board-setup.md) file.
 - Drill files:
   - Check the `suppress leading zeros` and `minimal header` boxes
   - Uncheck the `PTN and NPTH in single file` box 
-
-<br/>
-
-## 5 - Footprints and Libraries
-
-See [THIS](footprints-libraries.md) file.
