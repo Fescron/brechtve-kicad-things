@@ -18,7 +18,6 @@
     - [2.2.3 - Solder Mask/Paste](#223---solder-maskpaste)
   - [2.3 - Design rules for board houses](#23---design-rules-for-board-houses)
     - [2.3.1 - PCBWay (Quick-turn PCB as of 21/11/2019)](#231---pcbway-quick-turn-pcb-as-of-21112019)
-  - [Terms of Use](#terms-of-use)
 
 <br/>
 
@@ -111,16 +110,6 @@ Text (silkscreen) settings:
 - Inverted:
   - Minimum character line width: `0,25 mm`
   - Minimum character height: `1,25 mm`
-
-<br/>
-
-## Terms of Use
-
-**Copyright (C) 2019 - Brecht Van Eeckhoudt**
-
-This documentation is licensed under a CreativeCommons **Attribution-ShareAlike 4.0 International** licence (*CC BY-SA 4.0*). Find more info at: https://creativecommons.org/licenses/by-sa/4.0/
-
-[![License: CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 <br/>
 

@@ -22,7 +22,6 @@ This repository is a collection of all my commonly used settings/symbols/package
   - [4 - Gerber generation](#4---gerber-generation)
     - [4.1 - PCBWay (Quick-turn PCB as of 21/11/2019)](#41---pcbway-quick-turn-pcb-as-of-21112019)
   - [5 - Footprints and Libraries](#5---footprints-and-libraries)
-  - [Terms of Use](#terms-of-use)
 
 <br/>
 
@@ -122,14 +121,3 @@ See [THIS](board-setup.md) file.
 ## 5 - Footprints and Libraries
 
 See [THIS](footprints-libraries.md) file.
-
-<br/>
-
-
-## Terms of Use
-
-**Copyright (C) 2019 - Brecht Van Eeckhoudt**
-
-This documentation is licensed under a CreativeCommons **Attribution-ShareAlike 4.0 International** licence (*CC BY-SA 4.0*). Find more info at: https://creativecommons.org/licenses/by-sa/4.0/
-
-[![License: CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
