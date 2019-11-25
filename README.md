@@ -32,6 +32,7 @@ This repository is a collection of all my commonly used settings/symbols/package
 - Ohm sign: **Ω**
 - Select X7R capacitors if possible
 - Use VDD instead of VCC
+- **PLOT the schematic so the text becomes selectable!**
 <!-- fix vertical spacing -->
 - Draw the PCB in inches!
 - Use **rounded PCB corners** with a diameter of **75 mils (0,0750 inch)**.
@@ -83,6 +84,8 @@ This repository is a collection of all my commonly used settings/symbols/package
 | `Ctrl + Shift + H` | Add Dimension                    | `Shift + N` | Switch Grid to Previous            |
 | `I`                | Select Connected Tracks          |             |                                    |
 
+**TODO: Move the bulk of the shortcuts to another file and add schematic shortcuts?**
+
 <br/>
 
 ## 3 - Board Setup
@@ -110,9 +113,9 @@ See [THIS](board-setup.md) file.
 | `Mechanical: MountingHole`                                           | `MountingHole: MountingHole_3.2mm_M3`                                               | Diameter hole: 3,2 mm                                  |
 | `Switch: SW_Push`                                                    | `Button_Switch_SMD: SW_SPST_FSMSM`                                                  | Pads: 2,18 mm x 1,60 mm - Distance between pads: 7 mm  |
 |                                                                      |                                                                                     |                                                        |
-| `BrechtVE_DebugHeader: DebugHeader_Cortex-M_SWD_UART_10p_TagConnect` | `Connector: Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical`                        | 2x5 TagConnect with legs                               |
-| `BrechtVE_DebugHeader: DebugHeader_Cortex-M_SWD_UART_10p`            | `Connector_PinHeader_1.27mm: PinHeader_2x05_P1.27mm_Vertical_SMD`                       |                                                        |
-| `BrechtVE_DebugHeader: DebugHeader_UART_4p`                          | `Connector_PinHeader_2.54mm: PinHeader_1x04_P2.54mm_Vertical (_SMD)`                       |                                                        |
+| `BrechtVE_DebugHeader: DebugHeader_Cortex-M_SWD_UART_10p`            | `Connector_PinHeader_1.27mm: PinHeader_2x05_P1.27mm_Vertical_SMD`                   |                                                        |
+| `BrechtVE_DebugHeader: DebugHeader_Cortex-M_SWD_UART_10p_TagConnect` | `Connector: Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical`                        |                                                        |
+| `BrechtVE_DebugHeader: DebugHeader_UART_4p`                          | `Connector_PinHeader_2.54mm: PinHeader_1x04_P2.54mm_Vertical (_SMD)`                |                                                        |
 |                                                                      |                                                                                     |                                                        |
 | `BrechtVE_Aesthetics: Symbol_OSHW-EEVBLOG_SPFMDBC_10mm`              | `BrechtVE_Aesthetics: OSHW-EEVBLOG2_SPFMDBC_SolderMaskTop_5mm`                      | Height: 5 mm                                           |
 |                                                                      | `BrechtVE_Aesthetics: KiCad-Logo2_SilkScreenMaskTop_5mm`                            | Height:  5mm                                           |
