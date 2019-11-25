@@ -1,6 +1,7 @@
 
 # KiCad
 
+![Shortcut](https://img.shields.io/badge/website-kicad.brechtve.be-yellow)
 ![License](https://img.shields.io/badge/licence-CC%20BY--SA%204.0-blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Fescron/KiCad.svg)
 <!--
@@ -110,7 +111,7 @@ See [THIS](board-setup.md) file.
 | `Switch: SW_Push`                                                    | `Button_Switch_SMD: SW_SPST_FSMSM`                                                  | Pads: 2,18 mm x 1,60 mm - Distance between pads: 7 mm  |
 |                                                                      |                                                                                     |                                                        |
 | `BrechtVE_DebugHeader: DebugHeader_Cortex-M_SWD_UART_10p_TagConnect` | `Connector: Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical`                        | 2x5 TagConnect with legs                               |
-| `BrechtVE_DebugHeader: DebugHeader_Cortex-M_SWD_UART_10p`            | `Connector_PinHeader_1.27mm: PinHeader_2x05_P1.27mm_Vertical (_SMD)`                       |                                                        |
+| `BrechtVE_DebugHeader: DebugHeader_Cortex-M_SWD_UART_10p`            | `Connector_PinHeader_1.27mm: PinHeader_2x05_P1.27mm_Vertical_SMD`                       |                                                        |
 | `BrechtVE_DebugHeader: DebugHeader_UART_4p`                          | `Connector_PinHeader_2.54mm: PinHeader_1x04_P2.54mm_Vertical (_SMD)`                       |                                                        |
 |                                                                      |                                                                                     |                                                        |
 | `BrechtVE_Aesthetics: Symbol_OSHW-EEVBLOG_SPFMDBC_10mm`              | `BrechtVE_Aesthetics: OSHW-EEVBLOG2_SPFMDBC_SolderMaskTop_5mm`                      | Height: 5 mm                                           |
