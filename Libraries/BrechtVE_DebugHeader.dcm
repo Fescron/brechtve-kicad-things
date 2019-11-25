@@ -1,0 +1,28 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DebugHeader_Cortex-M_JTAG_10p
+D Cortex-M modified 9-pin JTAG header
+K programming header debug cortex-m jtag
+$ENDCMP
+#
+$CMP DebugHeader_Cortex-M_JTAG_10p_TagConnect
+D Cortex-M modified 9-pin JTAG header on TagConnect header
+K programming header debug cortex-m jtag tagconnect
+$ENDCMP
+#
+$CMP DebugHeader_Cortex-M_SWD_UART_10p
+D Cortex-M modified 9-pin SWD header with UART pins
+K programming header debug cortex-m swd uart
+$ENDCMP
+#
+$CMP DebugHeader_Cortex-M_SWD_UART_10p_TagConnect
+D Cortex-M modified 9-pin SWD header with UART pins on TagConnect header
+K programming header debug cortex-m swd uart tagconnect
+$ENDCMP
+#
+$CMP DebugHeader_UART_4p
+D UART debug header with TXD-RXD-GND-VCC connections
+K programming header debug uart
+$ENDCMP
+#
+#End Doc Library
