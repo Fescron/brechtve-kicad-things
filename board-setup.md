@@ -16,8 +16,9 @@
     - [2.2.1 - Net Classes](#221---net-classes)
     - [2.2.2 - Tracks & Vias](#222---tracks--vias)
     - [2.2.3 - Solder Mask/Paste](#223---solder-maskpaste)
-  - [2.3 - Design rules for board houses](#23---design-rules-for-board-houses)
-    - [2.3.1 - PCBWay (Quick-turn PCB as of 21/11/2019)](#231---pcbway-quick-turn-pcb-as-of-21112019)
+  - [2.3 - Fill settings](#23---fill-settings)
+  - [2.4 - Design rules for board houses](#24---design-rules-for-board-houses)
+    - [2.4.1 - PCBWay (Quick-turn PCB as of 21/11/2019)](#241---pcbway-quick-turn-pcb-as-of-21112019)
 
 <br/>
 
@@ -89,24 +90,35 @@ Here we also switch to slightly other values using the *imperial* system.
 
 <br/>
 
-## 2.3 - Design rules for board houses
+## 2.3 - Fill settings
 
-### 2.3.1 - PCBWay (Quick-turn PCB as of 21/11/2019)
-
-DRC settings:
-
-- Minimum track width: `6 mils`
-- Minimum track gap: `6 mils`
-- Minimum via drill: `0,3 mm`
+|                     | Size    | (default sizes are fine) |
+| ------------------- | ------- | ------------------------ |
+| Clearance           | 20 mils | (0,508 mm)               |
+| Minimum width       | 10 mils | (0,254 mm)               |
+| Thermal clearance   | 20 mils | (0,508 mm)               |
+| Thermal spoke width | 20 mils | (0,508 mm)               |
 
 <br/>
 
-Text (silkscreen) settings:
+## 2.4 - Design rules for board houses
+
+### 2.4.1 - PCBWay (Quick-turn PCB as of 21/11/2019)
+
+**DRC settings**
+
+- Minimum track width: `6 mils`
+- Minimum track gap: `6 mils`
+- Minimum via drill: `0,3 mm` (`11,81102 mils`)
+
+<br/>
+
+**Text (silkscreen) settings**
 
 - Positive:
   - Minimum character line width: `0,15 mm`
   - Minimum character height: `0,8 mm`
-  - => A ratio of `1:5` is recommended.
+  - (A ratio of `1:5` is recommended)
 - Inverted:
   - Minimum character line width: `0,25 mm`
   - Minimum character height: `1,25 mm`
