@@ -117,7 +117,7 @@ See [THIS](board-setup.md) file.
 | `BrechtVE_DebugHeader: DebugHeader_Cortex-M_SWD_UART_10p_TagConnect` | `Connector: Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical`                        |                                                        |
 | `BrechtVE_DebugHeader: DebugHeader_UART_4p`                          | `Connector_PinHeader_2.54mm: PinHeader_1x04_P2.54mm_Vertical (_SMD)`                |                                                        |
 |                                                                      |                                                                                     |                                                        |
-| `BrechtVE_Aesthetics: Symbol_OSHW-EEVBLOG_SPFMDBC_10mm`              | `BrechtVE_Aesthetics: OSHW-EEVBLOG2_SPFMDBC_SolderMaskTop_5mm`                      | Height: 5 mm                                           |
+| `BrechtVE_Aesthetics: Symbol_OSHW-Logo_11.4x12mm`                    | `BrechtVE_Aesthetics: OSHW-Logo_5.7x6mm_SolderMask`                                 |                                                        |
 |                                                                      | `BrechtVE_Aesthetics: KiCad-Logo2_SilkScreenMaskTop_5mm`                            | Height:  5mm                                           |
 
 | Connector    | Usage                                   | Commonly used package                                             |
