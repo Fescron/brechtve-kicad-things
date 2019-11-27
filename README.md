@@ -1,5 +1,5 @@
 
-# KiCad
+# KiCad Libraries
 
 ![Shortcut](https://img.shields.io/badge/website-kicad.brechtve.be-yellow)
 ![License](https://img.shields.io/badge/licence-CC%20BY--SA%204.0-blue)
