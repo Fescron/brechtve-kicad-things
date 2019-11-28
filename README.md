@@ -3,7 +3,7 @@
 
 ![Shortcut](https://img.shields.io/badge/website-kicad.brechtve.be-yellow)
 ![License](https://img.shields.io/badge/licence-CC%20BY--SA%204.0-blue)
-![GitHub last commit](https://img.shields.io/github/last-commit/Fescron/KiCad.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/Fescron/brechtve-kicad-things.svg)
 <!--
 [GitHub Release Date](https://img.shields.io/github/release-date/Fescron/KiCad.svg)
 [GitHub release](https://img.shields.io/github/release/Fescron/KiCad.svg)
@@ -15,7 +15,7 @@ This repository is a collection of all my commonly used settings/symbols/package
 
 ## Table of Contents
 
-- [KiCad](#kicad)
+- [KiCad Things](#kicad-things)
   - [Table of Contents](#table-of-contents)
   - [1 - Tips & Tricks](#1---tips--tricks)
   - [2 - Keyboard shortcuts](#2---keyboard-shortcuts)
