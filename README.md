@@ -17,7 +17,7 @@ This repository is a collection of all my commonly used settings/symbols/package
 
 - [KiCad Things](#kicad-things)
   - [Table of Contents](#table-of-contents)
-  - [1 - Tips & Tricks](#1---tips--tricks)
+  - [1 - Tips &amp; Tricks](#1---tips-amp-tricks)
   - [2 - Keyboard shortcuts](#2---keyboard-shortcuts)
   - [3 - Board Setup](#3---board-setup)
   - [4 - PCB design](#4---pcb-design)
@@ -41,17 +41,17 @@ This repository is a collection of all my commonly used settings/symbols/package
 - PCB thickness: 1,6 mm
 - Copper weight: 35 µm (1 oz)
 
-|            | Grid size |             | Usage    | Shortcut    |     |     |     | Standard board information                                          |
-| ---------- | --------- | ----------- | -------- | ----------- | --- | --- | --- | ------------------------------------------------------------------- |
-| Schematic  | 50 mils   |             | Standard |             |     |     |     | `< project title >` &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;`v1.0` |
-| PCB layout | 25 mils   | (0,6350 mm) | Standard | `Alt` + `1` |     |     |     | `Licensed under CERN OHL v.1.2`                                     |
-| PCB layout | 5 mils    | (0,2540 mm) | Fine     | `Alt` + `2` |     |     |     | `github.brechtve.be` &nbsp; &nbsp; `01/2020`                        |
+|            | Grid size |             |  Usage   |  Shortcut   |     |     |     | Standard board information                                          |
+| :--------: | :-------: | :---------: | :------: | :---------: | --- | --- | --- | ------------------------------------------------------------------- |
+| Schematic  |  50 mils  |             | Standard |             |     |     |     | `< project title >` &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;`v1.0` |
+| PCB layout |  25 mils  | (0,6350 mm) | Standard | `Alt` + `1` |     |     |     | `Licensed under CERN OHL v.1.2`                                     |
+| PCB layout |  5 mils   | (0,2540 mm) |   Fine   | `Alt` + `2` |     |     |     | `github.brechtve.be` &nbsp; &nbsp; `01/2020`                        |
 
-| Resistor package | Power dissipation | Usage                 |     | Diode package | Other name | Size   |
-| ---------------- | ----------------- | --------------------- | --- | ------------- | ---------- | ------ |
-| 0603             | 1/10 W = 100 mW   |                       |     | DO-214AC      | SMA        | Small  |
-| 0805             | 1/8 W = 125 mW    | Hand soldering        |     | DO-214AA      | SMB        | Middle |
-| 1206             | 1/4 W = 250 mW    | Power sensing (0,1 Ω) |     | DO-214AB      | SMC        | Large  |
+| Resistor package | Power dissipation | Usage                 |     | Diode package | Other name |  Size  |
+| :--------------: | :---------------: | --------------------- | --- | :-----------: | :--------: | :----: |
+|       0603       |  1/10 W = 100 mW  |                       |     |   DO-214AC    |    SMA     | Small  |
+|       0805       |  1/8 W = 125 mW   | Hand soldering        |     |   DO-214AA    |    SMB     | Middle |
+|       1206       |  1/4 W = 250 mW   | Power sensing (0,1 Ω) |     |   DO-214AB    |    SMC     | Large  |
 
 <br/>
 
@@ -126,6 +126,19 @@ See [THIS](board-setup.md) file.
 | JST-XH       | Lithium batteries                       | `Connector_JST: JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical`            |
 | JST-PH       | Small LiPo packs (1+ 2-), STEMMA, Grove | `Connector_JST: JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical`            |
 | JST-SH       | STEMMA QT, Qwiic                        | `Connector_JST: JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal` |
+
+| UART  | Color  |     | Cortex-M SWD       | Color  |
+| :---: | :----: | --- | ------------------ | :----: |
+|  RXD  | White  |     | 01. VTREF (3.3V)   |  Red   |
+|  TXD  | Green  |     | 02. SWDIO          | Orange |
+|  GND  | Black  |     | 03. GND            | Black  |
+| 3.3V  |  Red   |     | 04. SWCLK          | Purple |
+|       |        |     | 05. GND            |        |
+|  DTR  |  Blue  |     | 06. SWO            |  Grey  |
+|  RTS  | Purple |     | 07. (key) JL.RX    | White  |
+|  CTS  |  Grey  |     | 08. (nc) JL.TX     | Green  |
+|       |        |     | 09. (nc) GNDdetect |        |
+|       |        |     | 10. nRESET         |  Blue  |
 
 <br/>
 
