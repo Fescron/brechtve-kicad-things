@@ -1,0 +1,440 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "KiCad Project ARM Template"
+Date ""
+Rev "v1.0"
+Comp "Brecht Van Eeckhoudt"
+Comment1 "kicad.brechtve.be"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E4BDDEC
+P 10100 7050
+F 0 "H1" H 10200 7050 50  0000 L CNN
+F 1 "MountingHole" H 10200 7005 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10100 7050 50  0001 C CNN
+F 3 "~" H 10100 7050 50  0001 C CNN
+	1    10100 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E4BDFB7
+P 10400 7050
+F 0 "H2" H 10500 7050 50  0000 L CNN
+F 1 "MountingHole" H 10500 7005 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10400 7050 50  0001 C CNN
+F 3 "~" H 10400 7050 50  0001 C CNN
+	1    10400 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E4BE12E
+P 10700 7050
+F 0 "H3" H 10800 7050 50  0000 L CNN
+F 1 "MountingHole" H 10800 7005 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10700 7050 50  0001 C CNN
+F 3 "~" H 10700 7050 50  0001 C CNN
+	1    10700 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5E4BE2D2
+P 11000 7050
+F 0 "H4" H 11100 7050 50  0000 L CNN
+F 1 "MountingHole" H 11100 7005 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 11000 7050 50  0001 C CNN
+F 3 "~" H 11000 7050 50  0001 C CNN
+	1    11000 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BrechtVE_Aesthetics:Symbol_OSHW-Logo_11.4x12mm G1
+U 1 1 5E4BD295
+P 10950 6400
+F 0 "G1" H 10950 6195 60  0001 C CNN
+F 1 "Symbol_OSHW-Logo_11.4x12mm" H 10950 6605 60  0001 C CNN
+F 2 "BrechtVE_Aesthetics:OSHW-Logo_5.7x6mm_SolderMask" H 10950 6400 50  0001 C CNN
+F 3 "" H 10950 6400 50  0001 C CNN
+	1    10950 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BrechtVE_DebugHeader:DebugHeader_Cortex-M_SWD_UART_10p J1
+U 1 1 5E4C19F3
+P 10050 1300
+F 0 "J1" H 10050 1500 50  0000 C CNN
+F 1 "DebugHeader_Cortex-M_SWD_UART_10p" H 10075 1757 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 9600 1400 50  0001 C CNN
+F 3 "" H 9600 1400 50  0001 C CNN
+	1    10050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L BrechtVE_DebugHeader:DebugHeader_Cortex-M_SWD_UART_10p_TagConnect J2
+U 1 1 5E4C2351
+P 10050 2200
+F 0 "J2" H 10050 2400 50  0000 C CNN
+F 1 "DebugHeader_Cortex-M_JTAG_10p_TagConnect" H 10075 2732 50  0001 C CNN
+F 2 "Connector:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical" H 9600 2300 50  0001 C CNN
+F 3 "" H 9600 2300 50  0001 C CNN
+	1    10050 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L BrechtVE_DebugHeader:DebugHeader_UART_4p J3
+U 1 1 5E4C2C78
+P 10800 3300
+F 0 "J3" H 10800 3000 50  0000 C CNN
+F 1 "DebugHeader_UART_4p" H 10978 3297 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10600 3450 50  0001 C CNN
+F 3 "" H 10600 3450 50  0001 C CNN
+	1    10800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-PowerSymbols:VDD #SUPPLY0101
+U 1 1 5E4C36A6
+P 9550 1950
+F 0 "#SUPPLY0101" H 9600 1950 45  0001 L BNN
+F 1 "VDD" H 9550 2120 45  0000 C CNN
+F 2 "XXX-00000" H 9550 2131 60  0001 C CNN
+F 3 "" H 9550 1950 60  0001 C CNN
+	1    9550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-PowerSymbols:GND #GND0101
+U 1 1 5E4C3C3A
+P 9550 2450
+F 0 "#GND0101" H 9600 2400 45  0001 L BNN
+F 1 "GND" H 9550 2280 45  0000 C CNN
+F 2 "" H 9550 2350 60  0001 C CNN
+F 3 "" H 9550 2350 60  0001 C CNN
+	1    9550 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 9550 2300 0    50   Output ~ 0
+DBG_SWCLK
+Text GLabel 10600 1200 2    50   Output ~ 0
+DBG_SWCLK
+Text GLabel 10600 2200 2    50   Output ~ 0
+DBG_RXD
+Text GLabel 10600 1400 2    50   Output ~ 0
+DBG_RXD
+Text GLabel 9550 1400 0    50   Input ~ 0
+DBG_TXD
+Text GLabel 10600 2300 2    50   Input ~ 0
+DBG_TXD
+Text GLabel 10600 2400 2    50   Input ~ 0
+DBG_SWO
+Text GLabel 10600 1300 2    50   Input ~ 0
+DBG_SWO
+Text GLabel 10600 1500 2    50   Output ~ 0
+DBG_~RESET
+Text GLabel 10600 2000 2    50   Output ~ 0
+DBG_~RESET
+Text GLabel 10600 2100 2    50   Output ~ 0
+DBG_GNDd
+Text GLabel 9550 1500 0    50   Output ~ 0
+DBG_GNDd
+Wire Wire Line
+	10550 1100 10600 1100
+Wire Wire Line
+	10550 1200 10600 1200
+Wire Wire Line
+	10550 1300 10600 1300
+Wire Wire Line
+	10550 1400 10600 1400
+Wire Wire Line
+	10550 1500 10600 1500
+Wire Wire Line
+	9600 1500 9550 1500
+Wire Wire Line
+	9600 1400 9550 1400
+Wire Wire Line
+	10550 2000 10600 2000
+Wire Wire Line
+	10550 2100 10600 2100
+Wire Wire Line
+	10550 2200 10600 2200
+Wire Wire Line
+	10550 2300 10600 2300
+Wire Wire Line
+	10550 2400 10600 2400
+Wire Wire Line
+	9550 2300 9600 2300
+Wire Wire Line
+	9600 2000 9550 2000
+Wire Wire Line
+	9550 2000 9550 1950
+Wire Wire Line
+	9600 2400 9550 2400
+Wire Wire Line
+	9550 2400 9550 2450
+Wire Wire Line
+	9600 2200 9450 2200
+Text Label 9450 2200 0    50   ~ 0
+GND
+Wire Wire Line
+	9600 1100 9450 1100
+Wire Wire Line
+	9600 1200 9450 1200
+Wire Wire Line
+	9600 1300 9450 1300
+Text Label 9450 1300 0    50   ~ 0
+GND
+Text Label 9450 1200 0    50   ~ 0
+GND
+Text Label 9450 1100 0    50   ~ 0
+VDD
+$Comp
+L Device:R_Small R3
+U 1 1 5E4DAD58
+P 10250 3150
+F 0 "R3" V 10050 3150 50  0000 C CNN
+F 1 "100 Ω" V 10150 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10250 3150 50  0001 C CNN
+F 3 "~" H 10250 3150 50  0001 C CNN
+	1    10250 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5E4DB48C
+P 10250 3250
+F 0 "R4" V 10450 3250 50  0000 C CNN
+F 1 "100 Ω" V 10350 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10250 3250 50  0001 C CNN
+F 3 "~" H 10250 3250 50  0001 C CNN
+	1    10250 3250
+	0    1    1    0   
+$EndComp
+Text GLabel 10000 3150 0    50   Input ~ 0
+DBG_TXD
+Text GLabel 10000 3350 0    50   Output ~ 0
+DBG_RXD
+Wire Wire Line
+	10600 3450 10450 3450
+Wire Wire Line
+	10600 3350 10450 3350
+Text Label 10450 3450 0    50   ~ 0
+VDD
+Text Label 10450 3350 0    50   ~ 0
+GND
+$Comp
+L Device:R_Small R2
+U 1 1 5E4DB6C7
+P 9550 3100
+F 0 "R2" H 9492 3054 50  0000 R CNN
+F 1 "10 kΩ" H 9492 3145 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9550 3100 50  0001 C CNN
+F 3 "~" H 9550 3100 50  0001 C CNN
+	1    9550 3100
+	1    0    0    1   
+$EndComp
+$Comp
+L SparkFun-PowerSymbols:VDD #SUPPLY0102
+U 1 1 5E4FCF2A
+P 9550 2950
+F 0 "#SUPPLY0102" H 9600 2950 45  0001 L BNN
+F 1 "VDD" H 9550 3120 45  0000 C CNN
+F 2 "XXX-00000" H 9550 3131 60  0001 C CNN
+F 3 "" H 9550 2950 60  0001 C CNN
+	1    9550 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 3200 9550 3250
+Wire Wire Line
+	9550 3250 10050 3250
+Wire Wire Line
+	10000 3350 10050 3350
+Wire Wire Line
+	10050 3350 10050 3250
+Connection ~ 10050 3250
+Wire Wire Line
+	10050 3250 10150 3250
+Wire Wire Line
+	10000 3150 10150 3150
+Text GLabel 10650 1100 2    50   BiDi ~ 0
+DBG_SWDIO
+$Comp
+L SparkFun-PowerSymbols:VDD #SUPPLY0103
+U 1 1 5E506F4B
+P 10600 750
+F 0 "#SUPPLY0103" H 10650 750 45  0001 L BNN
+F 1 "VDD" H 10600 920 45  0000 C CNN
+F 2 "XXX-00000" H 10600 931 60  0001 C CNN
+F 3 "" H 10600 750 60  0001 C CNN
+	1    10600 750 
+	1    0    0    -1  
+$EndComp
+Connection ~ 10600 1100
+Wire Wire Line
+	10600 1100 10650 1100
+Wire Wire Line
+	10600 1000 10600 1100
+$Comp
+L Device:R_Small R1
+U 1 1 5E5040C7
+P 10600 900
+F 0 "R1" H 10541 854 50  0000 R CNN
+F 1 "100 kΩ" H 10541 945 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10600 900 50  0001 C CNN
+F 3 "~" H 10600 900 50  0001 C CNN
+	1    10600 900 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 2950 9550 3000
+Wire Wire Line
+	10600 750  10600 800 
+Wire Wire Line
+	9450 2100 9600 2100
+Text GLabel 9450 2100 0    50   BiDi ~ 0
+DBG_SWDIO
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5E51BF3F
+P 10250 4050
+F 0 "SW1" H 10250 4335 50  0000 C CNN
+F 1 "SW_Push" H 10250 4244 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_FSMSM" H 10250 4250 50  0001 C CNN
+F 3 "~" H 10250 4250 50  0001 C CNN
+	1    10250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5E51C54C
+P 10650 4050
+F 0 "R6" V 10450 4050 50  0000 C CNN
+F 1 "100 Ω" V 10550 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10650 4050 50  0001 C CNN
+F 3 "~" H 10650 4050 50  0001 C CNN
+	1    10650 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-PowerSymbols:VDD #SUPPLY0104
+U 1 1 5E51C73F
+P 9800 3750
+F 0 "#SUPPLY0104" H 9850 3750 45  0001 L BNN
+F 1 "VDD" H 9800 3920 45  0000 C CNN
+F 2 "XXX-00000" H 9800 3931 60  0001 C CNN
+F 3 "" H 9800 3750 60  0001 C CNN
+	1    9800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-PowerSymbols:GND #GND0102
+U 1 1 5E51C967
+P 10850 4350
+F 0 "#GND0102" H 10900 4300 45  0001 L BNN
+F 1 "GND" H 10850 4180 45  0000 C CNN
+F 2 "" H 10850 4250 60  0001 C CNN
+F 3 "" H 10850 4250 60  0001 C CNN
+	1    10850 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 9650 4050 0    50   Output ~ 0
+DBG_~RESET
+$Comp
+L Device:C_Small C1
+U 1 1 5E51CDC7
+P 9800 4200
+F 0 "C1" H 9892 4246 50  0000 L CNN
+F 1 "100 nF" H 9892 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9800 4200 50  0001 C CNN
+F 3 "~" H 9800 4200 50  0001 C CNN
+	1    9800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5E51D213
+P 9800 3900
+F 0 "R5" H 9741 3854 50  0000 R CNN
+F 1 "1 kΩ" H 9741 3945 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9800 3900 50  0001 C CNN
+F 3 "~" H 9800 3900 50  0001 C CNN
+	1    9800 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E51E5CD
+P 9250 1950
+F 0 "#FLG0101" H 9250 2025 50  0001 C CNN
+F 1 "PWR_FLAG" H 9250 2123 50  0000 C CNN
+F 2 "" H 9250 1950 50  0001 C CNN
+F 3 "~" H 9250 1950 50  0001 C CNN
+	1    9250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5E51EF86
+P 9250 2450
+F 0 "#FLG0102" H 9250 2525 50  0001 C CNN
+F 1 "PWR_FLAG" H 9250 2623 50  0000 C CNN
+F 2 "" H 9250 2450 50  0001 C CNN
+F 3 "~" H 9250 2450 50  0001 C CNN
+	1    9250 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9250 1950 9250 2000
+Wire Wire Line
+	9250 2000 9550 2000
+Connection ~ 9550 2000
+Wire Wire Line
+	9250 2450 9250 2400
+Wire Wire Line
+	9250 2400 9550 2400
+Connection ~ 9550 2400
+$Comp
+L SparkFun-PowerSymbols:GND #GND0103
+U 1 1 5E539A2B
+P 9800 4350
+F 0 "#GND0103" H 9850 4300 45  0001 L BNN
+F 1 "GND" H 9800 4180 45  0000 C CNN
+F 2 "" H 9800 4250 60  0001 C CNN
+F 3 "" H 9800 4250 60  0001 C CNN
+	1    9800 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 3750 9800 3800
+Wire Wire Line
+	9650 4050 9800 4050
+Wire Wire Line
+	9800 4000 9800 4050
+Connection ~ 9800 4050
+Wire Wire Line
+	9800 4050 10050 4050
+Wire Wire Line
+	9800 4050 9800 4100
+Wire Wire Line
+	9800 4300 9800 4350
+Wire Wire Line
+	10450 4050 10550 4050
+Wire Wire Line
+	10750 4050 10850 4050
+Wire Wire Line
+	10850 4050 10850 4350
+Wire Wire Line
+	10350 3150 10600 3150
+Wire Wire Line
+	10350 3250 10600 3250
+$EndSCHEMATC
