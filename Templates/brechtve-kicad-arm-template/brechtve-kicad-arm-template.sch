@@ -126,8 +126,6 @@ $EndComp
 Wire Wire Line
 	10700 1100 10750 1100
 Wire Wire Line
-	9400 2300 9750 2300
-Wire Wire Line
 	9750 2000 9700 2000
 Wire Wire Line
 	9700 2000 9700 1950
@@ -135,10 +133,6 @@ Wire Wire Line
 	9750 2400 9700 2400
 Wire Wire Line
 	9700 2400 9700 2450
-Wire Wire Line
-	9750 2200 9400 2200
-Text Label 9400 2200 0    50   ~ 0
-GND
 Wire Wire Line
 	9750 1100 9350 1100
 Wire Wire Line
@@ -234,8 +228,6 @@ Wire Wire Line
 	9700 2950 9700 3000
 Wire Wire Line
 	10750 750  10750 800 
-Wire Wire Line
-	9400 2100 9750 2100
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5E51BF3F
@@ -392,10 +384,6 @@ Text Label 9450 2000 0    50   ~ 0
 VDD
 Text Label 9450 2400 0    50   ~ 0
 GND
-Text Label 9400 2100 0    50   ~ 0
-SWDIO
-Text Label 9400 2300 0    50   ~ 0
-SWCLK
 Wire Wire Line
 	10700 2000 11050 2000
 Wire Wire Line
@@ -434,4 +422,16 @@ Wire Wire Line
 	10250 3150 10550 3150
 Wire Wire Line
 	10250 3250 10550 3250
+Wire Wire Line
+	9400 2300 9750 2300
+Text Label 9400 2300 0    50   ~ 0
+SWCLK
+Wire Wire Line
+	9750 2200 9400 2200
+Text Label 9400 2200 0    50   ~ 0
+GND
+Wire Wire Line
+	9400 2100 9750 2100
+Text Label 9400 2100 0    50   ~ 0
+SWDIO
 $EndSCHEMATC
