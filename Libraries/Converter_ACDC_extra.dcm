@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RAC03-15SK
+D RECOM power RAC03-15SK 230VAC to 15VDC 3W (200 mA) converter
+K RECOM power RAC03-15SK 230VAC 230V 15VDC 15V 3W ACDC converter module
+F https://www.mouser.be/datasheet/2/468/RAC03-K-1711241.pdf
+$ENDCMP
+#
+$CMP RAC03-3.8SC
+D RECOM power RAC03-3.8SC 230VAC to 3.8VDC 3W (789 mA) converter
+K RECOM power RAC03-3.8SC 230VAC 230V 3.8VDC 3.8V 3V8 3W ACDC converter module
+F https://www.mouser.be/datasheet/2/468/RAC03-C-1711223.pdf
+$ENDCMP
+#
+#End Doc Library
