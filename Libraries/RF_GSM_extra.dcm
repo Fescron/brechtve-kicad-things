@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Quectel_BG96
+D Quectel BG96 LTE NB-IoT module
+K LTE NB-IoT GSM
+$ENDCMP
+#
+#End Doc Library
