@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TXS0104EPWR
+D 4-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, TSSOP-14
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txs0104e.pdf
+$ENDCMP
+#
+$CMP TXS0108EPWR
+D 8-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, TSSOP-20
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txs0108e.pdf
+$ENDCMP
+#
+#End Doc Library
