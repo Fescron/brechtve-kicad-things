@@ -72,7 +72,7 @@ $Comp
 L BrechtVE_DebugHeader:DebugHeader_Cortex-M_SWD_UART_10p J1
 U 1 1 5E4C19F3
 P 10200 1300
-F 0 "J1" H 10200 1500 50  0000 C CNN
+F 0 "J1" H 10200 950 50  0000 C CNN
 F 1 "DebugHeader_Cortex-M_SWD_UART_10p" H 10225 1757 50  0001 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 9750 1400 50  0001 C CNN
 F 3 "" H 9750 1400 50  0001 C CNN
@@ -83,7 +83,7 @@ $Comp
 L BrechtVE_DebugHeader:DebugHeader_Cortex-M_SWD_UART_10p_TagConnect J2
 U 1 1 5E4C2351
 P 10200 2200
-F 0 "J2" H 10200 2400 50  0000 C CNN
+F 0 "J2" H 10200 1850 50  0000 C CNN
 F 1 "DebugHeader_Cortex-M_JTAG_10p_TagConnect" H 10225 2732 50  0001 C CNN
 F 2 "Connector:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical" H 9750 2300 50  0001 C CNN
 F 3 "" H 9750 2300 50  0001 C CNN
