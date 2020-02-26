@@ -17,7 +17,7 @@ This repository is a collection of all my commonly used settings/symbols/package
 
 - [KiCad Things](#kicad-things)
   - [Table of Contents](#table-of-contents)
-  - [1 - Tips &amp; Tricks](#1---tips-amp-tricks)
+  - [1 - Tips & Tricks](#1---tips--tricks)
   - [2 - Keyboard shortcuts](#2---keyboard-shortcuts)
   - [3 - Board Setup](#3---board-setup)
   - [4 - PCB design](#4---pcb-design)
@@ -82,7 +82,7 @@ This repository is a collection of all my commonly used settings/symbols/package
 | `U`                | Select Single Track              | `-`         | **Switch to Previous Layer**       |
 | `Ctrl + Shift + T` | Add Text                         | `N`         | Switch Grid to Next                |
 | `Ctrl + Shift + H` | Add Dimension                    | `Shift + N` | Switch Grid to Previous            |
-| `I`                | Select Connected Tracks          |             |                                    |
+| `I`                | Select Connected Tracks          | `Ctrl + M`  | **Move Exactly**                   |
 
 **TODO: Move the bulk of the shortcuts to another file and add schematic shortcuts?**
 
