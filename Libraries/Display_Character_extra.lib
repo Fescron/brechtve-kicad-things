@@ -4,12 +4,15 @@ EESchema-LIBRARY Version 2.4
 # Sparkfun_20x4_serLCD
 #
 DEF Sparkfun_20x4_serLCD U 0 40 Y Y 1 F N
-F0 "U" 0 300 50 H V C CNN
-F1 "Sparkfun_20x4_serLCD" 0 100 50 H V C CNN
+F0 "U" 0 400 50 H V C CNN
+F1 "Sparkfun_20x4_serLCD" 0 300 50 H V C CNN
 F2 "Display_extra:Sparkfun_20x4_serLCD" 0 300 50 H I C CNN
 F3 "" 650 -750 50 H I C CNN
 DRAW
+T 0 0 150 39 0 0 0 "20x4 (3.3V)" Normal 0 C C
+T 0 0 50 39 0 0 0 I2C/UART/SPI Normal 0 C C
 S 850 -250 -850 250 0 1 0 f
+S -250 200 250 0 1 1 0 N
 X GND 1 750 -350 100 U 50 50 1 1 W
 X SCK 10 -150 -350 100 U 50 50 1 1 I
 X DTR 11 -250 -350 100 U 50 50 1 1 I
