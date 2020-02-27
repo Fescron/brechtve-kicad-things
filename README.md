@@ -70,7 +70,8 @@ This repository is a collection of all my commonly used settings/symbols/package
 | `O`                | Add Footprint                    | `G`         | Drag Item                          |
 | `X`                | Add New Track                    | `C`         | Copy Item                          |
 | `/`                | Switch Track Posture             | `M`         | Move Item                          |
-| `D`                | Drag Track Keep Slope            | `T`         | Get and Move Footprint             |
+| `D`                | **Drag Track Keep Slope**        | `T`         | Get and Move Footprint             |
+| `TAB`              | **Drag Block**                   | `Ctrl + M`  | **Move Exactly**                   |
 | `V`                | Add Through Via                  | `F`         | Flip Item                          |
 | `Ctrl + Shift + V` | Add Vias                         | `R`         | Rotate Item                        |
 | `Ctrl + Shift + Z` | Add Filled Zone                  | `L`         | **Lock/Unlock Footprint**          |
@@ -82,7 +83,7 @@ This repository is a collection of all my commonly used settings/symbols/package
 | `U`                | Select Single Track              | `-`         | **Switch to Previous Layer**       |
 | `Ctrl + Shift + T` | Add Text                         | `N`         | Switch Grid to Next                |
 | `Ctrl + Shift + H` | Add Dimension                    | `Shift + N` | Switch Grid to Previous            |
-| `I`                | Select Connected Tracks          | `Ctrl + M`  | **Move Exactly**                   |
+| `I`                | Select Connected Tracks          |             |                                    |
 
 **TODO: Move the bulk of the shortcuts to another file and add schematic shortcuts?**
 
