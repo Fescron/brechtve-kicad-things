@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Sparkfun_20x4_serLCD
+D Sparkfun 20 characters on 4 lines, I2C/UART/SPI controlled LCD
+K Sparkfun LCD 20x4 serLCD I2C display character SPI UART serial
+F https://www.sparkfun.com/products/14074
+$ENDCMP
+#
+#End Doc Library
