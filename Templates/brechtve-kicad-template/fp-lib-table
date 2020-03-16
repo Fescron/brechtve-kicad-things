@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name BrechtVE_Aesthetics)(type KiCad)(uri ${KIPRJMOD}/Footprints/BrechtVE_Aesthetics.pretty)(options "")(descr ""))
+  (lib (name SparkfunConnectors)(type KiCad)(uri ${KIPRJMOD}/Footprints/SparkfunConnectors.pretty)(options "")(descr ""))
+)
