@@ -72,7 +72,7 @@ This repository is a collection of all my commonly used settings/symbols/package
 | `/`                | Switch Track Posture             | `M`         | Move Item                          |
 | `D`                | **Drag Track Keep Slope**        | `T`         | Get and Move Footprint             |
 | `TAB`              | **Drag Block**                   | `Ctrl + M`  | **Move Exactly**                   |
-| `V`                | Add Through Via                  | `F`         | Flip Item                          |
+| `V`                | **Add Through Via/Switch Layer** | `F`         | Flip Item (front/back)             |
 | `Ctrl + Shift + V` | Add Vias                         | `R`         | Rotate Item                        |
 | `Ctrl + Shift + Z` | Add Filled Zone                  | `L`         | **Lock/Unlock Footprint**          |
 | `Ctrl + Shift + K` | Add Keepout Area                 | `Ctrl + F`  | Find Item                          |
