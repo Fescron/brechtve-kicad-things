@@ -1,4 +1,4 @@
-update=di 18 feb 2020 14:17:01 CET
+update=do 02 sep 2021 13:24:44
 version=1
 last_client=kicad
 [general]
@@ -14,7 +14,7 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=PageLayout/BrechtVE_PageLayout_CERN-OHL-v1-2_2020.kicad_wks
+PageLayoutDescrFile=PageLayout/BrechtVE_PageLayout_CERN-OHL-v1-2_2021.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -24,7 +24,7 @@ LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=PageLayout/BrechtVE_PageLayout_CERN-OHL-v1-2_2020.kicad_wks
+PageLayoutDescrFile=PageLayout/BrechtVE_PageLayout_CERN-OHL-v1-2_2021.kicad_wks
 LastNetListRead=
 CopperLayerCount=2
 BoardThickness=1.6
@@ -79,7 +79,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.0508
 SolderMaskMinWidth=0.254
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
