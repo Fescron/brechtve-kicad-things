@@ -29,6 +29,6 @@
   (tbtext %C1 (name text15:Text) (pos 109 26))
   (line (name segm10:Line) (start 90 8.5) (end 90 5.5))
   (line (name segm11:Line) (start 26 8.5) (end 26 2))
-  (tbtext "Copyright © Brecht Van Eeckhoudt 2020" (name text16:Text) (pos 109 42) (font bold))
-  (tbtext "This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.\n\nYou may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). \nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY,\nSATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions.\n\nif you choose to manufacture products based on this design, please notify me (see licence section 4.2) via mail@brechtve.be" (name text17:Text) (pos 109 34) (font (size 1 1)))
+  (tbtext "Copyright © Brecht Van Eeckhoudt 2021" (name text16:Text) (pos 109 42) (font bold))
+  (tbtext "This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.\n\nYou may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). \nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY,\nSATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions.\n\nif you choose to manufacture products based on this design, please notify me (see licence section 4.2) via brecht@brechtve.be" (name text17:Text) (pos 109 34) (font (size 1 1)))
 )
