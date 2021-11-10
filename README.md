@@ -9,7 +9,7 @@
 [GitHub release](https://img.shields.io/github/release/Fescron/KiCad.svg)
 -->
 
-This repository is a collection of all my commonly used settings/symbols/packages and selfmade footprints/symbols among with a page layout containing [CERN Open Hardware Licence](https://ohwr.org/cernohl) information. These can be used in the schematic editor and PCB layout program [KiCad](http://www.kicad-pcb.org/).
+This repository is a collection of all my commonly used settings/symbols/packages and selfmade footprints/symbols among with a page layout containing [CERN Open Hardware Licence](https://ohwr.org/cernohl) information. These can be used in the schematic editor and PCB layout program [KiCad](http://www.kicad.org/).
 
 <br/>
 
